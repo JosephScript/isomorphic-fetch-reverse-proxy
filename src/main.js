@@ -15,8 +15,9 @@ fetch('/api', {
   }
   return response.json()
 })
-.then(stories => {
-  console.log(stories)
+.then(data => {
+  console.log(data.text)
+  document.querySelector('#content').innerHTML = data.text
 }).catch((err, data) => {
   console.log(err, data)
 })
