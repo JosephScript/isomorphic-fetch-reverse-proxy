@@ -3,6 +3,9 @@
   "license": "MIT",
   "main": "server.js",
   "author": "Joseph Szczesniak",
+  "engines": {
+    "node": "7.10.0"
+  },
   "standard": {
     "globals": [
       "fetch"
