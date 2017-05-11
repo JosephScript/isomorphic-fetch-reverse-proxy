@@ -5,4 +5,8 @@ In this example I built a reverse proxy (a common development scenario) using `i
 
 Since we're using Node v7.10 we can also take advantage of `asynx`/`await`. 
 
+## Usage
+
+Run `npm run build` and then `npm start`. Optionally, you can use `npm run watch` to watch the build.
+
 TODO: Use `async`/`await` on the browser.

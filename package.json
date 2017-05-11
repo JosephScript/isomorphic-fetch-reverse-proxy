@@ -13,6 +13,7 @@
   },
   "scripts": {
     "watch": "rollup -c --watch",
+    "build": "rollup -c",
     "start": "node server.js"
   },
   "devDependencies": {
