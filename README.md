@@ -9,4 +9,6 @@ Since we're using Node v7.10 we can also take advantage of `asynx`/`await`.
 
 Run `npm run build` and then `npm start`. Optionally, you can use `npm run watch` to watch the build.
 
-TODO: Use `async`/`await` on the browser.
+## Todo
+
+- [ ] Use `async`/`await` on the browser.
